@@ -117,21 +117,362 @@
 }
 
 
-*********** unpublished, in prep, submitted **********************
-
-
-
-
-
-
-
-@unpublished{venev2016virology,
-  title={Virion release imposes selective pressures on the influenza virus genome.},
-  author={{\myname{venev}} and Liu, Ping and Renzette, Nicholas and Gallagher, Glen R and Jensen, Jeffrey D and Caffrey, Daniel R and Schiffer, Celia A and Kowalik, Timothy F and Wang, Jennifer P and Finberg, Robert W and Zeldovich, Konstantin B},
-  journal={Journal of Virology},
-  note={in preparation},
-  year={2016}
+@ARTICLE{Emerson2022,
+  title     = "Cohesin-mediated loop anchors confine the locations of human
+               replication origins",
+  author    = "Emerson, Daniel J and Zhao, Peiyao A and Cook, Ashley L and
+               Barnett, R Jordan and Klein, Kyle N and Saulebekova, Dalila and
+               Ge, Chunmin and Zhou, Linda and Simandi, Zoltan and Minsk,
+               Miriam K and Titus, Katelyn R and Wang, Weitao and Gong, Wanfeng
+               and Zhang, Di and Yang, Liyan and {\myname{venev}} and Gibcus,
+               Johan H and Yang, Hongbo and Sasaki, Takayo and Kanemaki, Masato
+               T and Yue, Feng and Dekker, Job and Chen, Chun-Long and Gilbert,
+               David M and Phillips-Cremins, Jennifer E",
+  abstract  = "DNA replication occurs through an intricately regulated series
+               of molecular events and is fundamental for genome stability1,2.
+               At present, it is unknown how the locations of replication
+               origins are determined in the human genome. Here we dissect the
+               role of topologically associating domains (TADs)3-6, subTADs7
+               and loops8 in the positioning of replication initiation zones
+               (IZs). We stratify TADs and subTADs by the presence of
+               corner-dots indicative of loops and the orientation of CTCF
+               motifs. We find that high-efficiency, early replicating IZs
+               localize to boundaries between adjacent corner-dot TADs anchored
+               by high-density arrays of divergently and convergently oriented
+               CTCF motifs. By contrast, low-efficiency IZs localize to weaker
+               dotless boundaries. Following ablation of cohesin-mediated loop
+               extrusion during G1, high-efficiency IZs become diffuse and
+               delocalized at boundaries with complex CTCF motif orientations.
+               Moreover, G1 knockdown of the cohesin unloading factor WAPL
+               results in gained long-range loops and narrowed localization of
+               IZs at the same boundaries. Finally, targeted deletion or
+               insertion of specific boundaries causes local replication timing
+               shifts consistent with IZ loss or gain, respectively. Our data
+               support a model in which cohesin-mediated loop extrusion and
+               stalling at a subset of genetically encoded TAD and subTAD
+               boundaries is an essential determinant of the locations of
+               replication origins in human S phase.",
+  journal   = "Nature",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  606,
+  number    =  7915,
+  pages     = "812--819",
+  month     =  jun,
+  year      =  2022,
+  copyright = "https://creativecommons.org/licenses/by/4.0",
+  language  = "en"
 }
+
+@ARTICLE{MatrixPaper,
+  title     = "Systematic evaluation of chromosome conformation capture assays",
+  author    = "Akgol Oksuz, Betul and Yang, Liyan and Abraham, Sameer and
+               {\myname{venev}} and Krietenstein, Nils and Parsi, Krishna Mohan
+               and Ozadam, Hakan and Oomen, Marlies E and Nand, Ankita and Mao,
+               Hui and Genga, Ryan M J and Maehr, Rene and Rando, Oliver J and
+               Mirny, Leonid A and Gibcus, Johan H and Dekker, Job",
+  abstract  = "Chromosome conformation capture (3C) assays are used to map
+               chromatin interactions genome-wide. Chromatin interaction maps
+               provide insights into the spatial organization of chromosomes
+               and the mechanisms by which they fold. Hi-C and Micro-C are
+               widely used 3C protocols that differ in key experimental
+               parameters including cross-linking chemistry and chromatin
+               fragmentation strategy. To understand how the choice of
+               experimental protocol determines the ability to detect and
+               quantify aspects of chromosome folding we have performed a
+               systematic evaluation of 3C experimental parameters. We
+               identified optimal protocol variants for either loop or
+               compartment detection, optimizing fragment size and
+               cross-linking chemistry. We used this knowledge to develop a
+               greatly improved Hi-C protocol (Hi-C 3.0) that can detect both
+               loops and compartments relatively effectively. In addition to
+               providing benchmarked protocols, this work produced ultra-deep
+               chromatin interaction maps using Micro-C, conventional Hi-C and
+               Hi-C 3.0 for key cell lines used by the 4D Nucleome project.",
+  journal   = "Nat. Methods",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  18,
+  number    =  9,
+  pages     = "1046--1055",
+  month     =  sep,
+  year      =  2021,
+  copyright = "https://creativecommons.org/licenses/by/4.0",
+  language  = "en"
+}
+
+@UNPUBLISHED{BioframePreprint,
+  title    = "Bioframe: Operations on Genomic Intervals in Pandas Dataframes",
+  author   = "{Open2C} and Abdennur, Nezar and Fudenberg, Geoffrey and Flyamer,
+              Ilya and Galitsyna, Aleksandra A and Goloborodko, Anton and
+              Imakaev, Maxim and {\myname{venev}}",
+  publisher = {Cold Spring Harbor Laboratory},
+  abstract = "AbstractMotivationGenomic intervals are one of the most prevalent
+              data structures in computational genome biology, and used to
+              represent features ranging from genes, to DNA binding sites, to
+              disease variants. Operations on genomic intervals provide a
+              language for asking questions about relationships between
+              features. While there are excellent interval arithmetic tools for
+              the command line, they are not smoothly integrated into Python,
+              one of the most popular general-purpose computational and
+              visualization environments.ResultsBioframe is a library to enable
+              flexible and performant operations on genomic interval dataframes
+              in Python. Bioframe extends the Python data science stack to use
+              cases for computational genome biology by building directly on
+              top of two of the most commonly-used Python libraries, numpy and
+              pandas. The bioframe API enables flexible name and column orders,
+              and decouples operations from data formats to avoid unnecessary
+              conversions, a common scourge for bioinformaticians. Bioframe
+              achieves these goals while maintaining high performance and a
+              rich set of features.Availability and implementationBioframe is
+              open-source under MIT license, cross-platform, and can be
+              installed from the Python package index. The source code is
+              maintained by Open2C on Github at
+              https://github.com/open2c/bioframe.",
+  journal  = {bioRxiv},
+  month    =  feb,
+  year     =  2022
+}
+
+@UNPUBLISHED{EricaMC3C,
+  title    = "Chromosome decompaction and cohesin direct Topoisomerase {II}
+              activity to establish and maintain an unentangled interphase
+              genome",
+  publisher = {Cold Spring Harbor Laboratory},
+  author   = "Hildebrand, Erica M and Polovnikov, Kirill and Dekker, Bastiaan
+              and Liu, Yu and Lafontaine, Denis L and Fox, A Nicole and Li,
+              Ying and {\myname{venev}} and Mirny, Leonid and Dekker, Job",
+  abstract = "SUMMARYThe topological state of chromosomes is an important
+              factor controlling their mechanical properties, dynamics and
+              function. Recent work has shown that interphase chromosomes are
+              largely free of entanglements. How cycling cells establish this
+              state from a dense mitotic chromosome and maintain it through
+              interphase in the presence of Topoisomerase II activity remains
+              mysterious. Using multi-contact 3C, Hi-C, and polymer
+              simulations, we find that mitotic chromosomes are
+              intrachromosomally entangled, while interphase chromosomes are
+              not, pointing to cell cycle-dependent control of chromosome
+              topology. The majority of mitotic entanglements are removed
+              during anaphase/telophase, with most of the remaining ones
+              removed during early G1, in a process that requires Topoisomerase
+              II. Polymer simulations show that swelling and decondensation of
+              mitotic chromosomes during mitotic exit produce entropic forces
+              that bias Topoisomerase II activity towards decatenation of
+              condensin loops. This is followed by prevention of formation of
+              new entanglements by lower Topoisomerase II activity in G1, and,
+              in heterochromatic B compartments, by interplay between cohesin
+              and Topoisomerase II. Our results show how cells control
+              chromosome topology during mitotic exit and G1 employing both
+              biophysical and molecular mechanisms to modulate Topoisomerase II
+              activity and directionality.",
+  journal  = {bioRxiv},
+  month    =  oct,
+  year     =  2022
+}
+
+@UNPUBLISHED{CooltoolsPreprint,
+  title    = "Cooltools: enabling high-resolution {Hi-C} analysis in Python",
+  author   = "{Open 2C} and Abdennur, Nezar and Abraham, Sameer and Fudenberg,
+              Geoff and Flyamer, Ilya M and Galitsyna, Aleksandra A and
+              Goloborodko, Anton and Imakaev, Maxim and Oksuz, Betul A and
+              {\myname{venev}}",
+  publisher = {Cold Spring Harbor Laboratory},
+  abstract = "Chromosome conformation capture (3C) technologies reveal the
+              incredible complexity of genome organization. Maps of increasing
+              size, depth, and resolution are now used to probe genome
+              architecture across cell states, types, and organisms. Larger
+              datasets add challenges at each step of computational analysis,
+              from storage and memory constraints to researchers' time.
+              Analysis tools that meet these increased resource demands have
+              not kept pace. Furthermore, existing tools offer limited support
+              for customizing analysis for specific use cases or new biology.
+              Here we introduce cooltools
+              (https://github.com/open2c/cooltools), a suite of computational
+              tools that enables flexible, scalable, and reproducible analysis
+              of high-resolution contact frequency data. Cooltools leverages
+              the widely-adopted cooler format which handles storage and access
+              for high-resolution datasets. Cooltools provides a paired command
+              line interface (CLI) and Python application programming interface
+              (API), which respectively facilitate workflows on
+              high-performance computing clusters and in interactive analysis
+              environments. In short, cooltools enables the effective use of
+              the latest and largest genome folding datasets.",
+  journal  = {bioRxiv},
+  month    =  nov,
+  year     =  2022
+}
+
+
+
+
+@article{ZuzanaTotova,
+author = {Zuzana Tothova AND Anne-Laure Valton AND Rebecca A. Gorelov AND Mounica Vallurupalli AND John M. Krill-Burger AND Amie Holmes AND Catherine C. Landers AND J. Erika Haydu AND Edyta Malolepsza AND Christina Hartigan AND Melanie Donahue AND Katerina D. Popova AND Sebastian Koochaki AND {\myname{venev}} AND Jeanne Rivera AND Edwin Chen AND Kasper Lage AND Monica Schenone AND Alan D. D’Andrea AND Steven A. Carr AND Elizabeth A. Morgan AND Job Dekker AND Benjamin L. Ebert},
+journal = {JCI Insight},
+publisher = {The American Society for Clinical Investigation},
+title = {Cohesin mutations alter DNA damage repair and chromatin structure and create therapeutic vulnerabilities in MDS/AML},
+year = {2021},
+month = {2},
+volume = {6},
+url = {https://insight.jci.org/articles/view/142149},
+
+abstract = {The cohesin complex plays an essential role in chromosome maintenance and transcriptional regulation. Recurrent somatic mutations in the cohesin complex are frequent genetic drivers in cancer, including myelodysplastic syndromes (MDS) and acute myeloid leukemia (AML). Here, using genetic dependency screens of stromal antigen 2–mutant (STAG2-mutant) AML, we identified DNA damage repair and replication as genetic dependencies in cohesin-mutant cells. We demonstrated increased levels of DNA damage and sensitivity of cohesin-mutant cells to poly(ADP-ribose) polymerase (PARP) inhibition. We developed a mouse model of MDS in which Stag2 mutations arose as clonal secondary lesions in the background of clonal hematopoiesis driven by tet methylcytosine dioxygenase 2 (Tet2) mutations and demonstrated selective depletion of cohesin-mutant cells with PARP inhibition in vivo. Finally, we demonstrated a shift from STAG2- to STAG1-containing cohesin complexes in cohesin-mutant cells, which was associated with longer DNA loop extrusion, more intermixing of chromatin compartments, and increased interaction with PARP and replication protein A complex. Our findings inform the biology and therapeutic opportunities for cohesin-mutant malignancies.},
+number = {3},
+doi = {10.1172/jci.insight.142149},
+url = {https://doi.org/10.1172/jci.insight.142149},
+}
+
+@article {AnneLaureMain,
+	author = {Valton, Anne-Laure and {\myname{venev}} and Mair, Barbara and Khokhar, Eraj and Tong, Amy H. Y. and Usaj, Matej and Chan, Katherine S. K. and Pai, Athma A. and Moffat, Jason and Dekker, Job},
+	title = {A cohesin traffic pattern genetically linked to gene regulation},
+	elocation-id = {2021.07.29.454218},
+	year = {2021},
+	doi = {10.1101/2021.07.29.454218},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Cohesin-mediated loop extrusion folds interphase chromosomes at the ten to hundreds kilobases scale. This process produces structural features such as loops and topologically associating domains. We identify three types of cis-elements that define the chromatin folding landscape generated by loop extrusion. First, CTCF sites form boundaries by stalling extruding cohesin, as shown before. Second, transcription termination sites form boundaries by acting as cohesin unloading sites. RNA polymerase II contributes to boundary formation at transcription termination sites. Third, transcription start sites form boundaries that are mostly independent of cohesin, but are sites where cohesin can pause. Together with cohesin loading at enhancers, and possibly other cis-elements, these loci create a dynamic pattern of cohesin traffic along the genome that guides enhancer-promoter interactions. Disturbing this traffic pattern, by removing CTCF barriers, renders cells sensitive to knock-out of genes involved in transcription initiation, such as the SAGA and TFIID complexes, and RNA processing such DEAD-Box RNA helicases. In the absence of CTCF, several of these factors fail to be efficiently recruited to active promoters. We propose that the complex pattern of cohesin movement along chromatin contributes to appropriate promoter-enhancer interactions and localization of transcription and RNA processing factors to active genes.HIGHLIGHTSAt least three types of chromatin boundaries regulate a cohesin traffic pattern.The cohesin traffic pattern guides enhancer-promoter interactions.Removing CTCF renders cells sensitive to deletion of RNA processing and gene regulation genes.Depleting CTCF affects localization of RNA processing and gene regulatory proteins.Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2021/07/30/2021.07.29.454218},
+	eprint = {https://www.biorxiv.org/content/early/2021/07/30/2021.07.29.454218.full.pdf},
+	journal = {bioRxiv}
+}
+
+@ARTICLE{Houda2021,
+  title     = "Liquid chromatin {Hi-C} characterizes compartment-dependent
+               chromatin interaction dynamics",
+  author    = "Belaghzal, Houda and Borrman, Tyler and Stephens, Andrew D and
+               Lafontaine, Denis L and {\myname{venev}} and Weng, Zhiping and
+               Marko, John F and Dekker, Job",
+  abstract  = "Nuclear compartmentalization of active and inactive chromatin is
+               thought to occur through microphase separation mediated by
+               interactions between loci of similar type. The nature and
+               dynamics of these interactions are not known. We developed
+               liquid chromatin Hi-C to map the stability of associations
+               between loci. Before fixation and Hi-C, chromosomes are
+               fragmented, which removes strong polymeric constraint, enabling
+               detection of intrinsic locus-locus interaction stabilities.
+               Compartmentalization is stable when fragments are larger than
+               10-25 kb. Fragmentation of chromatin into pieces smaller than 6
+               kb leads to gradual loss of genome organization.
+               Lamin-associated domains are most stable, whereas interactions
+               for speckle- and polycomb-associated loci are more dynamic.
+               Cohesin-mediated loops dissolve after fragmentation. Liquid
+               chromatin Hi-C provides a genome-wide view of chromosome
+               interaction dynamics.",
+  journal   = "Nat. Genet.",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  53,
+  number    =  3,
+  pages     = "367--378",
+  month     =  mar,
+  year      =  2021,
+  language  = "en"
+}
+
+
+@article{AnneLaureChicken,
+author = {Brossas, Caroline and Valton, Anne-Laure and {\myname{venev}} and Chilaka, Sabarinadh and Counillon, Antonin and Laurent, Marc and Goncalves, Coralie and Duriez, Bénédicte and Picard, Franck and Dekker, Job and Prioleau, Marie-Noëlle},
+title = {Clustering of strong replicators associated with active promoters is sufficient to establish an early-replicating domain},
+journal = {The EMBO Journal},
+volume = {39},
+number = {21},
+pages = {e99520},
+keywords = {chromatin accessibility, nuclear organization, promoter, replication origin, replication timing},
+doi = {https://doi.org/10.15252/embj.201899520},
+url = {https://www.embopress.org/doi/abs/10.15252/embj.201899520},
+eprint = {https://www.embopress.org/doi/pdf/10.15252/embj.201899520},
+abstract = {Abstract Vertebrate genomes replicate according to a precise temporal program strongly correlated with their organization into A/B compartments. Until now, the molecular mechanisms underlying the establishment of early-replicating domains remain largely unknown. We defined two minimal cis-element modules containing a strong replication origin and chromatin modifier binding sites capable of shifting a targeted mid-late-replicating region for earlier replication. The two origins overlap with a constitutive or a silent tissue-specific promoter. When inserted side-by-side, these modules advance replication timing over a 250 kb region through the cooperation with one endogenous origin located 30 kb away. Moreover, when inserted at two chromosomal sites separated by 30 kb, these two modules come into close physical proximity and form an early-replicating domain establishing more contacts with active A compartments. The synergy depends on the presence of the active promoter/origin. Our results show that clustering of strong origins located at active promoters can establish early-replicating domains.},
+year = {2020}
+}
+
+
+
+@article{NilsKrit,
+title = {Ultrastructural Details of Mammalian Chromosome Architecture},
+journal = {Molecular Cell},
+volume = {78},
+number = {3},
+pages = {554-565.e7},
+year = {2020},
+issn = {1097-2765},
+doi = {https://doi.org/10.1016/j.molcel.2020.03.003},
+url = {https://www.sciencedirect.com/science/article/pii/S1097276520301519},
+author = {Nils Krietenstein and Sameer Abraham and {\myname{venev}} and Nezar Abdennur and Johan Gibcus and Tsung-Han S. Hsieh and Krishna Mohan Parsi and Liyan Yang and René Maehr and Leonid A. Mirny and Job Dekker and Oliver J. Rando},
+keywords = {Chromosomes, Micro-C, Loop extrusion, Chromatin, CTCF},
+abstract = {Summary
+Over the past decade, 3C-related methods have provided remarkable insights into chromosome folding in vivo. To overcome the limited resolution of prior studies, we extend a recently developed Hi-C variant, Micro-C, to map chromosome architecture at nucleosome resolution in human ESCs and fibroblasts. Micro-C robustly captures known features of chromosome folding including compartment organization, topologically associating domains, and interactions between CTCF binding sites. In addition, Micro-C provides a detailed map of nucleosome positions and localizes contact domain boundaries with nucleosomal precision. Compared to Hi-C, Micro-C exhibits an order of magnitude greater dynamic range, allowing the identification of ∼20,000 additional loops in each cell type. Many newly identified peaks are localized along extrusion stripes and form transitive grids, consistent with their anchors being pause sites impeding cohesin-dependent loop extrusion. Our analyses comprise the highest-resolution maps of chromosome folding in human cells to date, providing a valuable resource for studies of chromosome organization.}
+}
+
+
+@ARTICLE{Abramo2019,
+  title     = "A chromosome folding intermediate at the condensin-to-cohesin
+               transition during telophase",
+  author    = "Abramo, Kristin and Valton, Anne-Laure and {\myname{venev}} and
+               Ozadam, Hakan and Fox, A Nicole and Dekker, Job",
+  abstract  = "Chromosome folding is modulated as cells progress through the
+               cell cycle. During mitosis, condensins fold chromosomes into
+               helical loop arrays. In interphase, the cohesin complex
+               generates loops and topologically associating domains (TADs),
+               while a separate process of compartmentalization drives
+               segregation of active and inactive chromatin. We used
+               synchronized cell cultures to determine how the mitotic
+               chromosome conformation transforms into the interphase state.
+               Using high-throughput chromosome conformation capture (Hi-C)
+               analysis, chromatin binding assays and immunofluorescence, we
+               show that, by telophase, condensin-mediated loops are lost and a
+               transient folding intermediate is formed that is devoid of most
+               loops. By cytokinesis, cohesin-mediated CTCF-CTCF loops and the
+               positions of TADs emerge. Compartment boundaries are also
+               established early, but long-range compartmentalization is a slow
+               process and proceeds for hours after cells enter G1. Our results
+               reveal the kinetics and order of events by which the interphase
+               chromosome state is formed and identify telophase as a critical
+               transition between condensin- and cohesin-driven chromosome
+               folding.",
+  journal   = "Nat. Cell Biol.",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  21,
+  number    =  11,
+  pages     = "1393--1402",
+  month     =  nov,
+  year      =  2019,
+  language  = "en"
+}
+
+
+@article{Cherepanova2,
+author = {Shrimal, Shiteshu and Cherepanova, Natalia A. and Mandon, Elisabet C. and {\myname{venev}} and Gilmore, Reid},
+title = {Asparagine-linked glycosylation is not directly coupled to protein translocation across the endoplasmic reticulum in Saccharomyces cerevisiae},
+journal = {Molecular Biology of the Cell},
+volume = {30},
+number = {21},
+pages = {2626-2638},
+year = {2019},
+doi = {10.1091/mbc.E19-06-0330},
+    note ={PMID: 31433728},
+URL = {     
+        https://doi.org/10.1091/mbc.E19-06-0330
+},
+eprint = { 
+        https://doi.org/10.1091/mbc.E19-06-0330
+},
+    abstract = { Mammalian cells express two oligosaccharyltransferase complexes, STT3A and STT3B, that have distinct roles in N-linked glycosylation. The STT3A complex interacts directly with the protein translocation channel to mediate glycosylation of proteins using an N-terminal–to–C-terminal scanning mechanism. N-linked glycosylation of proteins in budding yeast has been assumed to be a cotranslational reaction. We have compared glycosylation of several glycoproteins in yeast and mammalian cells. Prosaposin, a cysteine-rich protein that contains STT3A-dependent glycosylation sites, is poorly glycosylated in yeast cells and STT3A-deficient human cells. In contrast, a protein with extreme C-terminal glycosylation sites was efficiently glycosylated in yeast by a posttranslocational mechanism. Posttranslocational glycosylation was also observed for carboxypeptidase Y–derived reporter proteins that contain closely spaced acceptor sites. A comparison of two recent protein structures indicates that the yeast OST is unable to interact with the yeast heptameric Sec complex via an evolutionarily conserved interface due to occupation of the OST binding site by the Sec63 protein. The efficiency of glycosylation in yeast is not enhanced for proteins that are translocated by the Sec61 or Ssh1 translocation channels instead of the Sec complex. We conclude that N-linked glycosylation and protein translocation are not directly coupled in yeast cells. }
+}
+
+
+
+@article{Cherepanova1,
+    author = {Cherepanova, Natalia A. and {\myname{venev}} and Leszyk, John D. and Shaffer, Scott A. and Gilmore, Reid},
+    title = "{Quantitative glycoproteomics reveals new classes of STT3A- and STT3B-dependent N-glycosylation sites}",
+    journal = {Journal of Cell Biology},
+    volume = {218},
+    number = {8},
+    pages = {2782-2796},
+    year = {2019},
+    month = {07},
+    abstract = "{Human cells express two oligosaccharyltransferase complexes (STT3A and STT3B) with partially overlapping functions. The STT3A complex interacts directly with the protein translocation channel to mediate cotranslational glycosylation, while the STT3B complex can catalyze posttranslocational glycosylation. We used a quantitative glycoproteomics procedure to compare glycosylation of roughly 1,000 acceptor sites in wild type and mutant cells. Analysis of site occupancy data disclosed several new classes of STT3A-dependent acceptor sites including those with suboptimal flanking sequences and sites located within cysteine-rich protein domains. Acceptor sites located in short loops of multi-spanning membrane proteins represent a new class of STT3B-dependent site. Remarkably, the lumenal ER chaperone GRP94 was hyperglycosylated in STT3A-deficient cells, bearing glycans on five silent sites in addition to the normal glycosylation site. GRP94 was also hyperglycosylated in wild-type cells treated with ER stress inducers including thapsigargin, dithiothreitol, and NGI-1.}",
+    issn = {0021-9525},
+    doi = {10.1083/jcb.201904004},
+    url = {https://doi.org/10.1083/jcb.201904004},
+    eprint = {https://rupress.org/jcb/article-pdf/218/8/2782/1382903/jcb\_201904004.pdf},
+}
+
+
 
 
 
@@ -281,6 +622,15 @@
   date={2015}
 }
 
+@inproceedings{venev2019_4dn,
+  title={Folding feature detection from deep Hi-C data.},
+  author={{\myname{venev}} and Ozadam, Hakan and Yang, Liyan and Kaplan, Noam and Abdennur, Nezar and Abraham, Sameer and Krishna, Mohan and Maehr, Rene and Gibcus, Johan and Dekker, Job},
+  booktitle={2019 4D Nucleome Annual Meeting},
+  address={San Diego, CA},
+  year={2019},
+  month={December},
+  date={2019}
+}
 
 
 
