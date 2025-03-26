@@ -17,3 +17,7 @@ bibtex submitpaper
 # re-compile ...
 pdflatex vitae
 ```
+
+# Overleaf !
+
+... actually - overleaf has ALL of the dependencies/styles/etc - so just compile it there
